@@ -19,7 +19,7 @@ Folder structure on google drive should look like:
 - Run the various google colab books following the numerical order
 
 
-Otherwise, all you have to do, is adapt the path to following files:
+##Otherwise, all you have to do, is adapt the path to following files:
 
 Used to generate Synthetic PROSAIL data
 - S2_Responses_S2A.csv 

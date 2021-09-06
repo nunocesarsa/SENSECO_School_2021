@@ -2,7 +2,7 @@
 Jupyter notebooks and data for the Senseco Summer School, 2021 in Plovdiv, Bulgaria
 
 
-Instructions to run "seamlessly"
+## Instructions to run "seamlessly"
 
 - Download zip file, unzip, and upload as is to your google drive folder. 
 
@@ -19,7 +19,9 @@ Folder structure on google drive should look like:
 - Run the various google colab books following the numerical order
 
 
-##Otherwise, all you have to do, is adapt the path to following files:
+## Otherwise
+
+All you have to do, is adapt the path to following files:
 
 Used to generate Synthetic PROSAIL data
 - S2_Responses_S2A.csv 

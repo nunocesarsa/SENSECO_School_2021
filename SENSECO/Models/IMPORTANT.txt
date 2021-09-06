@@ -1,0 +1,1 @@
+if you are using the github to download the data, then, the 30s model pickle has been compressed using 7zip. You might have to uncompress it

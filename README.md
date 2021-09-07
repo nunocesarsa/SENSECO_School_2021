@@ -26,14 +26,11 @@ Confirm the following folder structure on your google drive:
 
 1. You need to adapt the paths on your scripts to the following folders:
 
-Used to generate Synthetic PROSAIL data
-- S2_Responses_S2A.csv 
+- S2_Responses_S2A.csv - Used to generate Synthetic S2 data
 
-Used to crop the Sentinel images in GEE
-- CLBJ Boundary_Square_Small.shp (et al)
+- CLBJ Boundary_Square_Small.shp (et al) - Used to fetch the S2 images in GEE, crop them, and download them to your google drive (provided)
 
-Used to extract the values of LAI and Ch 
-- NEON_DHP_Centroids_UTM14N.shp (et al)
+- NEON_DHP_Centroids_UTM14N.shp (et al) - Used to extract the values of LAI and Ch from the final predictions
 
 2. Adapt the numerous locations where the path to a file is used in the loops. These use the filename to fetch the "date" of acquisition for example. 
   

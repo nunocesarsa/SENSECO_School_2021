@@ -4,24 +4,27 @@ Jupyter notebooks and data for the Senseco Summer School, 2021 in Plovdiv, Bulga
 
 ## Instructions to run "seamlessly"
 
-- Download zip file, unzip, and upload as is to your google drive folder. 
+1. Download zip file, unzip to a folder in your computer.
+2. Go to your google drive and create a SENSECO folder (on the root)
+  - Copy the contents of the SENSECO folder in your computer to your google drive accordingly 
+3. Copy the folder: SENSECO_S2Data to your google drive (on the root)
 
-Folder structure on google drive should look like:
+Confirm the following folder structure on your google drive:
 
-/Senseco/Models/
+<google drive>/Senseco/Models/
 
-/Senseco/Outputs/
+<google drive>/Senseco/Outputs/
 
-/Senseco/Shapefiles/ (in this folder, you should make sure all the shapefiles are on it)
+<google drive>/Senseco/Shapefiles/ (in this folder, you should make sure all the shapefiles are on it)
 
-/Senseco_S2Data/ (this folder should have everything that came with the zip file on it)
+<google drive>/Senseco_S2Data/ (this folder should have everything that came with the zip file on it)
 
 - Run the various google colab books following the numerical order
 
 
 ## Otherwise
 
-All you have to do, is adapt the path to following files:
+1. You need to adapt the paths on your scripts to the following folders:
 
 Used to generate Synthetic PROSAIL data
 - S2_Responses_S2A.csv 
@@ -32,5 +35,7 @@ Used to crop the Sentinel images in GEE
 Used to extract the values of LAI and Ch 
 - NEON_DHP_Centroids_UTM14N.shp (et al)
 
-And finally, you have to run all the scripts (and do all adaptations necessary). 
+2. Adapt the numerous locations where the path to a file is used in the loops. These use the filename to fetch the "date" of acquisition for example. 
+  
+ 
 
